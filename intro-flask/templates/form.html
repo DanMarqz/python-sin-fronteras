@@ -1,0 +1,19 @@
+<h1>Hola, estos son los usuarios!</h1>
+<table border="1">
+  <tbody>
+    <tr>
+      <th>ID</th>
+      <th>Username</th>
+      <th>E-Mail</th>
+      <th>Edad</th>
+    </tr>
+    {% for usuario in usuarios %}
+    <tr>
+      <td>{{ usuario.id  }}</td>
+      <td>{{ usuario.username  }}</td>
+      <td>{{ usuario.email  }}</td>
+      <td>{{ usuario.edad  }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
