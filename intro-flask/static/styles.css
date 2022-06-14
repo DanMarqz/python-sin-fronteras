@@ -1,3 +1,39 @@
 body{
   background-color: #aaa;
 }
+
+nav{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  padding: 12px;
+  transition: 400ms
+}
+
+a:hover{
+  background-color: #aaa;
+  color: black;
+  padding: 24px;
+  font-size: large;
+  transition: 600ms;
+}
+
+table{
+  background-color: white;
+  width: 100vw;
+  border: black 1px solid;
+  display: table;;
+}
+
+tbody, tr{
+  text-align: center;
+}
